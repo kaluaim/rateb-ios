@@ -1,0 +1,41 @@
+// Months (Gregorian)
+"MONTH_GREGORIAN_JANUARY"   = "يناير (١)";
+"MONTH_GREGORIAN_FEBRUARY"  = "فبراير (٢)";
+"MONTH_GREGORIAN_MARCH"     = "مارس (٣)";
+"MONTH_GREGORIAN_APRIL"     = "أبريل (٤)";
+"MONTH_GREGORIAN_MAY"       = "مايو (٥)";
+"MONTH_GREGORIAN_JUNE"      = "يونيو (٦)";
+"MONTH_GREGORIAN_JULY"      = "يوليو (٧)";
+"MONTH_GREGORIAN_AUGUST"    = "أغسطس (٨)";
+"MONTH_GREGORIAN_SEPTEMBER" = "سبتمبر (٩)";
+"MONTH_GREGORIAN_OCTOBER"   = "أكتوبر (١٠)";
+"MONTH_GREGORIAN_NOVEMBER"  = "نوفمبر (١١)";
+"MONTH_GREGORIAN_DECEMBER"  = "ديسمبر (١٢)";
+
+// Months (Hijri Lunar)
+"MONTH_HIJRI_LUNAR_MUHARRAM"          = "محرم (١)";
+"MONTH_HIJRI_LUNAR_SAFAR"             = "صفر (٢)";
+"MONTH_HIJRI_LUNAR_RABI_ALAWWAL"      = "ربيع الأول (٣)";
+"MONTH_HIJRI_LUNAR_RABI_ALTHANI"      = "ربيع الثاني (٤)";
+"MONTH_HIJRI_LUNAR_JUMADA_ALAWWAL"    = "جماد الأولى (٥)";
+"MONTH_HIJRI_LUNAR_JUMAADA_ALAKHIR"   = "جماد الآخرة (٦)";
+"MONTH_HIJRI_LUNAR_RAJAB"             = "رجب (٧)";
+"MONTH_HIJRI_LUNAR_SHABAN"            = "شعبان (٨)";
+"MONTH_HIJRI_LUNAR_RAMADAN"           = "رمضان (٩)";
+"MONTH_HIJRI_LUNAR_SHAWWAL"           = "شوال (١٠)";
+"MONTH_HIJRI_LUNAR_DHU_ALQIDAH"       = "ذو القعدة (١١)";
+"MONTH_HIJRI_LUNAR_DHU_ALHIJJAH"      = "ذو الحجة (١٢)";
+
+// Months (Hijri Solar)
+"MONTH_HIJRI_SOLAR_ARIES"       = "حمل (١)";
+"MONTH_HIJRI_SOLAR_TAURUS"      = "ثور (٢)";
+"MONTH_HIJRI_SOLAR_GEMINI"      = "جوزا (٣)";
+"MONTH_HIJRI_SOLAR_CANCER"      = "سرطان (٤)";
+"MONTH_HIJRI_SOLAR_LEO"         = "اسد (٥)";
+"MONTH_HIJRI_SOLAR_VIRGO"       = "سنبله (٦)";
+"MONTH_HIJRI_SOLAR_LIBRA"       = "میزان (٧)";
+"MONTH_HIJRI_SOLAR_SCORPIO"     = "عقرب (٨)";
+"MONTH_HIJRI_SOLAR_SAGITTARIUS" = "قوس (٩)";
+"MONTH_HIJRI_SOLAR_CAPRICORN"   = "جدی (١٠)";
+"MONTH_HIJRI_SOLAR_AQUARIUS"    = "دلو (١١)";
+"MONTH_HIJRI_SOLAR_PISCES"      = "حوت (٢١)";

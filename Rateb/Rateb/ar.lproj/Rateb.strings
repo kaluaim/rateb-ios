@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "http://kalua.im"; ObjectID = "2ro-hN-mRH"; */
+"2ro-hN-mRH.normalTitle" = "http://kalua.im";
+
+/* Class = "UILabel"; text = "ratebHijriSolar"; ObjectID = "9PS-bF-iuN"; */
+"9PS-bF-iuN.text" = "ratebHijriSolar";
+
+/* Class = "UILabel"; text = "Khalid Alnuaim (kaluaim)"; ObjectID = "G3Z-xW-Y8O"; */
+"G3Z-xW-Y8O.text" = "Khalid Alnuaim (kaluaim)";
+
+/* Class = "UILabel"; text = "31"; ObjectID = "I2F-75-skg"; */
+"I2F-75-skg.text" = "31";
+
+/* Class = "UILabel"; text = "Developed by"; ObjectID = "JwO-1N-907"; */
+"JwO-1N-907.text" = "Developed by";
+
+/* Class = "UILabel"; text = "ratebGregorian"; ObjectID = "Obt-9p-Mjm"; */
+"Obt-9p-Mjm.text" = "ratebGregorian";
+
+/* Class = "UILabel"; text = "currentGregorian"; ObjectID = "SyH-GR-URM"; */
+"SyH-GR-URM.text" = "currentGregorian";
+
+/* Class = "UILabel"; text = "currentHijriLunar"; ObjectID = "XYg-zw-ryM"; */
+"XYg-zw-ryM.text" = "currentHijriLunar";
+
+/* Class = "UILabel"; text = "ratebHijriLunar"; ObjectID = "YEC-kL-uBm"; */
+"YEC-kL-uBm.text" = "ratebHijriLunar";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "bal-Bv-dOP"; */
+"bal-Bv-dOP.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "currentHijriSolar"; ObjectID = "obr-Yj-cSx"; */
+"obr-Yj-cSx.text" = "currentHijriSolar";
+
+/* Class = "UILabel"; text = "Next Rateb"; ObjectID = "vHg-Ha-6pM"; */
+"vHg-Ha-6pM.text" = "الراتب القادم";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "w07-md-TVT"; */
+"w07-md-TVT.text" = " اليوم";
