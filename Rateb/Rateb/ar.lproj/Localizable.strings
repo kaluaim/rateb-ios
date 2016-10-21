@@ -27,15 +27,18 @@
 "MONTH_HIJRI_LUNAR_DHU_ALHIJJAH"      = "ذو الحجة (١٢)";
 
 // Months (Hijri Solar)
-"MONTH_HIJRI_SOLAR_ARIES"       = "حمل (١)";
-"MONTH_HIJRI_SOLAR_TAURUS"      = "ثور (٢)";
-"MONTH_HIJRI_SOLAR_GEMINI"      = "جوزا (٣)";
-"MONTH_HIJRI_SOLAR_CANCER"      = "سرطان (٤)";
-"MONTH_HIJRI_SOLAR_LEO"         = "اسد (٥)";
-"MONTH_HIJRI_SOLAR_VIRGO"       = "سنبله (٦)";
-"MONTH_HIJRI_SOLAR_LIBRA"       = "میزان (٧)";
-"MONTH_HIJRI_SOLAR_SCORPIO"     = "عقرب (٨)";
-"MONTH_HIJRI_SOLAR_SAGITTARIUS" = "قوس (٩)";
-"MONTH_HIJRI_SOLAR_CAPRICORN"   = "جدی (١٠)";
-"MONTH_HIJRI_SOLAR_AQUARIUS"    = "دلو (١١)";
-"MONTH_HIJRI_SOLAR_PISCES"      = "حوت (٢١)";
+"MONTH_HIJRI_SOLAR_ARIES"       = "الحمل";
+"MONTH_HIJRI_SOLAR_TAURUS"      = "الثور";
+"MONTH_HIJRI_SOLAR_GEMINI"      = "الجوزا";
+"MONTH_HIJRI_SOLAR_CANCER"      = "السرطان";
+"MONTH_HIJRI_SOLAR_LEO"         = "الاسد";
+"MONTH_HIJRI_SOLAR_VIRGO"       = "السنبله";
+"MONTH_HIJRI_SOLAR_LIBRA"       = "المیزان";
+"MONTH_HIJRI_SOLAR_SCORPIO"     = "العقرب";
+"MONTH_HIJRI_SOLAR_SAGITTARIUS" = "القوس";
+"MONTH_HIJRI_SOLAR_CAPRICORN"   = "الجدی";
+"MONTH_HIJRI_SOLAR_AQUARIUS"    = "الدلو";
+"MONTH_HIJRI_SOLAR_PISCES"      = "الحوت";
+
+"RATEB_TODAY" = "اليوم";
+"RATEB_TOMORROW" = "غداً";

@@ -27,15 +27,18 @@
 "MONTH_HIJRI_LUNAR_DHU_ALHIJJAH"      = "Dhu Alhijjah (12)";
 
 // Months (Hijri Solar)
-"MONTH_HIJRI_SOLAR_ARIES"       = "Hamal (Aries) (1)";
-"MONTH_HIJRI_SOLAR_TAURUS"      = "Sawr (Taurus) (2)";
-"MONTH_HIJRI_SOLAR_GEMINI"      = "Jawzā (Gemini) (3)";
-"MONTH_HIJRI_SOLAR_CANCER"      = "Saratān (Cancer) (4)";
-"MONTH_HIJRI_SOLAR_LEO"         = "Asad (Leo) (5)";
-"MONTH_HIJRI_SOLAR_VIRGO"       = "Sonbola (Virgo) (6)";
-"MONTH_HIJRI_SOLAR_LIBRA"       = "Mizān (Libra) (7)";
-"MONTH_HIJRI_SOLAR_SCORPIO"     = "‘Aqrab (Scorpio) (8)";
-"MONTH_HIJRI_SOLAR_SAGITTARIUS" = "Qaws (Sagittarius) (9)";
-"MONTH_HIJRI_SOLAR_CAPRICORN"   = "Jadi (Capricorn) (10)";
-"MONTH_HIJRI_SOLAR_AQUARIUS"    = "Dalvæ (Aquarius) (11)";
-"MONTH_HIJRI_SOLAR_PISCES"      = "Hūt (Pisces) (12)";
+"MONTH_HIJRI_SOLAR_ARIES"       = "Hamal (Aries)";
+"MONTH_HIJRI_SOLAR_TAURUS"      = "Sawr (Taurus)";
+"MONTH_HIJRI_SOLAR_GEMINI"      = "Jawzā (Gemini)";
+"MONTH_HIJRI_SOLAR_CANCER"      = "Saratān (Cancer)";
+"MONTH_HIJRI_SOLAR_LEO"         = "Asad (Leo)";
+"MONTH_HIJRI_SOLAR_VIRGO"       = "Sonbola (Virgo)";
+"MONTH_HIJRI_SOLAR_LIBRA"       = "Mizān (Libra)";
+"MONTH_HIJRI_SOLAR_SCORPIO"     = "‘Aqrab (Scorpio)";
+"MONTH_HIJRI_SOLAR_SAGITTARIUS" = "Qaws (Sagittarius)";
+"MONTH_HIJRI_SOLAR_CAPRICORN"   = "Jadi (Capricorn)";
+"MONTH_HIJRI_SOLAR_AQUARIUS"    = "Dalvæ (Aquarius)";
+"MONTH_HIJRI_SOLAR_PISCES"      = "Hūt (Pisces)";
+
+"RATEB_TODAY" = "Today";
+"RATEB_TOMORROW" = "Tomorrow";

@@ -1,39 +1,120 @@
 
-/* Class = "UIButton"; normalTitle = "http://kalua.im"; ObjectID = "2ro-hN-mRH"; */
-"2ro-hN-mRH.normalTitle" = "http://kalua.im";
+/* Class = "UILabel"; text = "/"; ObjectID = "0hG-74-qHg"; */
+"0hG-74-qHg.text" = "/";
 
-/* Class = "UILabel"; text = "ratebHijriSolar"; ObjectID = "9PS-bF-iuN"; */
-"9PS-bF-iuN.text" = "ratebHijriSolar";
+/* Class = "UILabel"; text = "2016"; ObjectID = "2lL-qK-4aY"; */
+"2lL-qK-4aY.text" = "2016";
 
-/* Class = "UILabel"; text = "Khalid Alnuaim (kaluaim)"; ObjectID = "G3Z-xW-Y8O"; */
-"G3Z-xW-Y8O.text" = "Khalid Alnuaim (kaluaim)";
+/* Class = "UIButton"; normalTitle = "Khalid Alnuaim (kaluaim)"; ObjectID = "2ro-hN-mRH"; */
+"2ro-hN-mRH.normalTitle" = "@kaluaim";
+
+/* Class = "UILabel"; text = "31"; ObjectID = "2ug-7n-h0o"; */
+"2ug-7n-h0o.text" = "31";
+
+/* Class = "UILabel"; text = "Qaws (Sagittarius)(9)"; ObjectID = "4iL-G7-F0D"; */
+"4iL-G7-F0D.text" = "Qaws (Sagittarius)(9)";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "8MI-9P-0f1"; */
+"8MI-9P-0f1.text" = "/";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "8sM-13-n1J"; */
+"8sM-13-n1J.text" = "/";
+
+/* Class = "UILabel"; text = "31"; ObjectID = "Bcl-2u-TZo"; */
+"Bcl-2u-TZo.text" = "31";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "C37-EM-I5F"; */
+"C37-EM-I5F.text" = "/";
+
+/* Class = "UILabel"; text = "Developed by:"; ObjectID = "H2Y-54-8du"; */
+"H2Y-54-8du.text" = "برمجة: ";
+
+/* Class = "UILabel"; text = "September (9)"; ObjectID = "HIX-Te-2Uz"; */
+"HIX-Te-2Uz.text" = "September (9)";
 
 /* Class = "UILabel"; text = "31"; ObjectID = "I2F-75-skg"; */
 "I2F-75-skg.text" = "31";
 
-/* Class = "UILabel"; text = "Developed by"; ObjectID = "JwO-1N-907"; */
-"JwO-1N-907.text" = "Developed by";
+/* Class = "UILabel"; text = "Jumaada Al-Akhir (6)"; ObjectID = "J7j-Ww-eEN"; */
+"J7j-Ww-eEN.text" = "Jumaada Al-Akhir (6)";
 
-/* Class = "UILabel"; text = "ratebGregorian"; ObjectID = "Obt-9p-Mjm"; */
-"Obt-9p-Mjm.text" = "ratebGregorian";
+/* Class = "UIButton"; normalTitle = "@engineer_fouad"; ObjectID = "KzY-2H-HYk"; */
+"KzY-2H-HYk.normalTitle" = "@engineer_fouad";
 
-/* Class = "UILabel"; text = "currentGregorian"; ObjectID = "SyH-GR-URM"; */
-"SyH-GR-URM.text" = "currentGregorian";
+/* Class = "UILabel"; text = "Scraped with thanks by:"; ObjectID = "LC5-kq-wEu"; */
+"LC5-kq-wEu.text" = "إعداد:";
 
-/* Class = "UILabel"; text = "currentHijriLunar"; ObjectID = "XYg-zw-ryM"; */
-"XYg-zw-ryM.text" = "currentHijriLunar";
+/* Class = "UILabel"; text = "/"; ObjectID = "Qvz-YB-GmE"; */
+"Qvz-YB-GmE.text" = "/";
 
-/* Class = "UILabel"; text = "ratebHijriLunar"; ObjectID = "YEC-kL-uBm"; */
-"YEC-kL-uBm.text" = "ratebHijriLunar";
+/* Class = "UILabel"; text = "Qaws (Sagittarius)(9)"; ObjectID = "SQy-d8-owe"; */
+"SQy-d8-owe.text" = "Qaws (Sagittarius)(9)";
+
+/* Class = "UILabel"; text = "1438"; ObjectID = "Ykg-kO-gup"; */
+"Ykg-kO-gup.text" = "1438";
 
 /* Class = "UIButton"; normalTitle = "X"; ObjectID = "bal-Bv-dOP"; */
 "bal-Bv-dOP.normalTitle" = "X";
 
-/* Class = "UILabel"; text = "currentHijriSolar"; ObjectID = "obr-Yj-cSx"; */
-"obr-Yj-cSx.text" = "currentHijriSolar";
+/* Class = "UILabel"; text = "/"; ObjectID = "c8o-Po-XaC"; */
+"c8o-Po-XaC.text" = "/";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "cKD-zy-CFs"; */
+"cKD-zy-CFs.text" = "/";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "dd7-oy-Pdp"; */
+"dd7-oy-Pdp.text" = "/";
+
+/* Class = "UILabel"; text = "30"; ObjectID = "hJQ-wY-rmQ"; */
+"hJQ-wY-rmQ.text" = "30";
+
+/* Class = "UILabel"; text = "September (9)"; ObjectID = "hhI-9e-wu9"; */
+"hhI-9e-wu9.text" = "September (9)";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "i9y-G5-z3h"; */
+"i9y-G5-z3h.text" = "/";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "kb0-Dk-vL0"; */
+"kb0-Dk-vL0.text" = "/";
+
+/* Class = "UILabel"; text = "Jumaada Al-Akhir (6)"; ObjectID = "lQn-14-2Xx"; */
+"lQn-14-2Xx.text" = "Jumaada Al-Akhir (6)";
+
+/* Class = "UILabel"; text = "30"; ObjectID = "lxv-Mv-GgJ"; */
+"lxv-Mv-GgJ.text" = "30";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "mTJ-xH-EeK"; */
+"mTJ-xH-EeK.text" = "/";
+
+/* Class = "UILabel"; text = "1395"; ObjectID = "omH-cb-jpj"; */
+"omH-cb-jpj.text" = "1395";
+
+/* Class = "UILabel"; text = "1395"; ObjectID = "qBJ-hl-bfT"; */
+"qBJ-hl-bfT.text" = "1395";
+
+/* Class = "UILabel"; text = "/"; ObjectID = "r8l-oB-lUI"; */
+"r8l-oB-lUI.text" = "/";
+
+/* Class = "UILabel"; text = "31"; ObjectID = "rHR-j0-EWL"; */
+"rHR-j0-EWL.text" = "31";
+
+/* Class = "UILabel"; text = "2016"; ObjectID = "sIO-Dx-5Pd"; */
+"sIO-Dx-5Pd.text" = "2016";
+
+/* Class = "UIButton"; normalTitle = "http://www.ummulqura.org.sa/"; ObjectID = "tZ2-5p-DQg"; */
+"tZ2-5p-DQg.normalTitle" = "http://www.ummulqura.org.sa/";
 
 /* Class = "UILabel"; text = "Next Rateb"; ObjectID = "vHg-Ha-6pM"; */
 "vHg-Ha-6pM.text" = "الراتب القادم";
 
-/* Class = "UILabel"; text = "Today"; ObjectID = "w07-md-TVT"; */
+/* Class = "UILabel"; text = " Today"; ObjectID = "w07-md-TVT"; */
 "w07-md-TVT.text" = " اليوم";
+
+/* Class = "UILabel"; text = "31"; ObjectID = "wnd-Ay-KPW"; */
+"wnd-Ay-KPW.text" = "31";
+
+/* Class = "UILabel"; text = "1438"; ObjectID = "zVH-Lx-yRX"; */
+"zVH-Lx-yRX.text" = "1438";
+
+/* Class = "UILabel"; text = "Using: "; ObjectID = "zd7-yw-xIB"; */
+"zd7-yw-xIB.text" = "باستخدام: ";

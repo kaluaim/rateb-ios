@@ -6,10 +6,11 @@
 @property (strong, nonatomic) NSCalendar        *calendarGregorian;
 @property (strong, nonatomic) NSCalendar        *calendarHijriLunar;
 @property (strong, nonatomic) NSCalendar        *calendarHijriSolar;
+@property (strong, nonatomic) NSDictionary      *currentHijriSolar;
+@property (strong, nonatomic) NSDictionary      *ratebHijriSolar;
 @end
 
 @implementation RatebVC
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -38,10 +39,10 @@
 
 - (void)updateRateb {
     [self setupCurrentDates];
-    NSDateComponents *hijriSolarComponents = [[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierPersian] components:(NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear) fromDate:[NSDate date]];
-    NSDate *nextRatebDate = [_ratebUtilities retrivenNextRatebFromCurrentSolarHijriDay:[hijriSolarComponents day]
-                                                                                 month:[hijriSolarComponents month]
-                                                                               andYear:[hijriSolarComponents year]];
+    NSDateComponents *hijriLunarComponents = [[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierIslamicUmmAlQura] components:(NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear) fromDate:[NSDate date]];
+    NSDate *nextRatebDate = [_ratebUtilities retrivenNextRatebFromCurrentHijriLunarDay:[hijriLunarComponents day]
+                                                                                 month:[hijriLunarComponents month]
+                                                                               andYear:[hijriLunarComponents year]];
     [self setupRemainingToRatebDate:nextRatebDate];
     [self setupRatebDatesForDate:nextRatebDate];
 }
@@ -57,15 +58,23 @@
     _currentHLMonth.text = [_ratebUtilities localizeHijriLunarMonth:[currentHijriLunarComponents month]];
     _currentHLYear.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithInteger:[currentHijriLunarComponents year]] numberStyle:NSNumberFormatterNoStyle];
     
-    NSDateComponents *currentHijriSolarComponents = [_calendarHijriSolar components:(NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear) fromDate:[NSDate date]];
-    _currentHSDay.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithInteger:[currentHijriSolarComponents day]] numberStyle:NSNumberFormatterNoStyle];
-    _currentHSMonth.text = [_ratebUtilities localizeHijriSolarMonth:[currentHijriSolarComponents month]];
-    _currentHSYear.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithInteger:[currentHijriSolarComponents year]] numberStyle:NSNumberFormatterNoStyle];
+    _currentHijriSolar = [_ratebUtilities retrivenHijriSolarDateForHijriLunarDay:[currentHijriLunarComponents day] month:[currentHijriLunarComponents month] andYear:[currentHijriLunarComponents year]];
+    _currentHSDay.text = [NSNumberFormatter localizedStringFromNumber:[_currentHijriSolar objectForKey:kSolarDay] numberStyle:NSNumberFormatterNoStyle];
+    _currentHSMonth.text = NSLocalizedString([_currentHijriSolar objectForKey:kSolarMonth], nil);;
+    _currentHSYear.text = [NSNumberFormatter localizedStringFromNumber:[_currentHijriSolar objectForKey:kSolarYear] numberStyle:NSNumberFormatterNoStyle];
 }
 
 - (void)setupRemainingToRatebDate:(NSDate *)ratebDate {
     NSInteger daysLeftToRateb = [_ratebUtilities calculateDaysLeftToNextRatebDate:ratebDate];
-    _remainingToRateb.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithInteger:daysLeftToRateb] numberStyle:NSNumberFormatterNoStyle];
+
+    if (daysLeftToRateb == 0) {
+        _remainingToRateb.text = NSLocalizedString(@"RATEB_TODAY", nil);
+    } else if (daysLeftToRateb == 1) {
+        _remainingToRateb.text = NSLocalizedString(@"RATEB_TOMORROW", nil);
+    } else {
+        _remainingToRateb.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithInteger:daysLeftToRateb] numberStyle:NSNumberFormatterNoStyle];
+    }
+    
 }
 
 - (void)setupRatebDatesForDate:(NSDate *)ratebDate {
@@ -79,10 +88,10 @@
     _ratebHLMonth.text = [_ratebUtilities localizeHijriLunarMonth:[ratebHijriLunarComponents month]];
     _ratebHLYear.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithInteger:[ratebHijriLunarComponents year]] numberStyle:NSNumberFormatterNoStyle];
     
-    NSDateComponents *ratebHijriSolarComponents = [_calendarHijriSolar components:(NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear) fromDate:ratebDate];
-    _ratebHSDay.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithInteger:[ratebHijriSolarComponents day]] numberStyle:NSNumberFormatterNoStyle];
-    _ratebHSMonth.text = [_ratebUtilities localizeHijriSolarMonth:[ratebHijriSolarComponents month]];
-    _ratebHSYear.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithInteger:[ratebHijriSolarComponents year]] numberStyle:NSNumberFormatterNoStyle];
+    _ratebHijriSolar = [_ratebUtilities retrivenHijriSolarDateForHijriLunarDay:[ratebHijriLunarComponents day] month:[ratebHijriLunarComponents month] andYear:[ratebHijriLunarComponents year]];
+    _ratebHSDay.text = [NSNumberFormatter localizedStringFromNumber:[_ratebHijriSolar objectForKey:kSolarDay] numberStyle:NSNumberFormatterNoStyle];
+    _ratebHSMonth.text = NSLocalizedString([_ratebHijriSolar objectForKey:kSolarMonth], nil);;
+    _ratebHSYear.text = [NSNumberFormatter localizedStringFromNumber:[_ratebHijriSolar objectForKey:kSolarYear] numberStyle:NSNumberFormatterNoStyle];
 }
 
 

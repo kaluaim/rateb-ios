@@ -17,6 +17,7 @@
 		FAE237B51DB4046F0089B25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE237B31DB4046F0089B25B /* LaunchScreen.storyboard */; };
 		FAE237C01DB4046F0089B25B /* RatebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237BF1DB4046F0089B25B /* RatebTests.m */; };
 		FAE237CE1DB40FE70089B25B /* RatebUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237CD1DB40FE70089B25B /* RatebUtilities.m */; };
+		FAEED3811DB8AF19001A3554 /* UmmulquraDates.json in Resources */ = {isa = PBXBuildFile; fileRef = FAEED3801DB8AF19001A3554 /* UmmulquraDates.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 		FA829BC71DB44137005621C9 /* InfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoVC.h; sourceTree = "<group>"; };
 		FA829BC81DB44137005621C9 /* InfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoVC.m; sourceTree = "<group>"; };
 		FA829BCE1DB44A23005621C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FA829BD01DB44A3D005621C9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Rateb.strings; sourceTree = "<group>"; };
 		FA829BD11DB44A3D005621C9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FAE237A21DB4046F0089B25B /* Rateb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rateb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE237A61DB4046F0089B25B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,6 +50,8 @@
 		FAE237C11DB4046F0089B25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE237CC1DB40FE70089B25B /* RatebUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatebUtilities.h; sourceTree = "<group>"; };
 		FAE237CD1DB40FE70089B25B /* RatebUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatebUtilities.m; sourceTree = "<group>"; };
+		FAEED3801DB8AF19001A3554 /* UmmulquraDates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UmmulquraDates.json; sourceTree = "<group>"; };
+		FAEED3831DB8F7F2001A3554 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Rateb.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FAE237B11DB4046F0089B25B /* Assets.xcassets */,
 				FAE237B61DB4046F0089B25B /* Info.plist */,
 				FAE237A61DB4046F0089B25B /* main.m */,
+				FAEED3801DB8AF19001A3554 /* UmmulquraDates.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEED3811DB8AF19001A3554 /* UmmulquraDates.json in Resources */,
 				FAE237B51DB4046F0089B25B /* LaunchScreen.storyboard in Resources */,
 				FA829BCD1DB44A23005621C9 /* Localizable.strings in Resources */,
 				FAE237B21DB4046F0089B25B /* Assets.xcassets in Resources */,
@@ -288,7 +292,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FAE237AF1DB4046F0089B25B /* Base */,
-				FA829BD01DB44A3D005621C9 /* ar */,
+				FAEED3831DB8F7F2001A3554 /* ar */,
 			);
 			name = Rateb.storyboard;
 			sourceTree = "<group>";
@@ -400,8 +404,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 328T3E4F4D;
 				INFOPLIST_FILE = Rateb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaluaim.Rateb;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaluaim.rateb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,8 +417,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 328T3E4F4D;
 				INFOPLIST_FILE = Rateb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaluaim.Rateb;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaluaim.rateb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

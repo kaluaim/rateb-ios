@@ -2,20 +2,76 @@
 
 @implementation RatebUtilities
 
-- (NSDate *)retrivenNextRatebFromCurrentSolarHijriDay:(NSInteger)day month:(NSInteger)month andYear:(NSInteger)year {
-    NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
-    [dateComponents setCalendar:[NSCalendar calendarWithIdentifier:NSCalendarIdentifierPersian]];
-    [dateComponents setDay:5];
-    [dateComponents setMonth:month];
-    [dateComponents setYear:year];
+NSString *const kUmmulquraDates = @"UMMALQURA_DATES";
+NSString *const kGregoranDay    = @"gregoran_day";
+NSString *const kGregoranMonth  = @"gregoran_month";
+NSString *const kGregoranYear   = @"gregoran_year";
+NSString *const kSolarDay       = @"hijri_solar_day";
+NSString *const kSolarMonth     = @"hijri_solar_month";
+NSString *const kSolarYear      = @"hijri_solar_year";
+
++ (void)initialize {
     
-    if (day > 5) {
-        [dateComponents setMonth:month+1];
-        if (month == 12) {
-            [dateComponents setMonth:1];
-            [dateComponents setYear:year+1];
+    if (self == [RatebUtilities class]) {
+        NSString* ummulquraDatesPath = [[NSBundle mainBundle] pathForResource:@"UmmulquraDates" ofType:@"json"];
+        NSString *ummulquraDatesJSON = [[NSString alloc] initWithContentsOfFile:ummulquraDatesPath encoding:NSUTF8StringEncoding error:NULL];
+        NSDictionary *ummulquraDatesDictionary = [NSJSONSerialization JSONObjectWithData:[ummulquraDatesJSON dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
+        [[NSUserDefaults standardUserDefaults] setObject:ummulquraDatesDictionary forKey:kUmmulquraDates];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        //NSLog(@"\n\nthe dict %@",[[[[[[NSUserDefaults standardUserDefaults] objectForKey:kUmmulquraDates] objectForKey:@"1460"] objectAtIndex:11] objectAtIndex:29] objectForKey:kSolarDay]);
+    }
+    
+}
+
+- (NSDictionary *)retrivenHijriSolarDateForHijriLunarDay:(NSInteger)day month:(NSInteger)month andYear:(NSInteger)year{
+    @try {
+        return [[[[[NSUserDefaults standardUserDefaults] objectForKey:kUmmulquraDates] objectForKey:[NSString stringWithFormat:@"%ld", (long)year]] objectAtIndex:month-1] objectAtIndex:day-1];
+    } @catch (NSException *exception) {
+        @try {
+            return [[[[[NSUserDefaults standardUserDefaults] objectForKey:kUmmulquraDates] objectForKey:[NSString stringWithFormat:@"%ld", (long)year]] objectAtIndex:month-1] objectAtIndex:day-2];
+        } @catch (NSException *exception) {
+            return NULL;
         }
     }
+}
+
+- (NSDate *)retrivenNextRatebFromCurrentHijriLunarDay:(NSInteger)day month:(NSInteger)month andYear:(NSInteger)year {
+    NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
+    [dateComponents setCalendar:[NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian]];
+    NSDictionary *solarForLunarDict = [self retrivenHijriSolarDateForHijriLunarDay:day month:month andYear:year];
+    NSDictionary *ratebDict;
+    NSInteger tmpDay = day;
+    NSInteger tmpMonth = month;
+    NSInteger tmpYear = year;
+    
+    if ([[solarForLunarDict objectForKey:kSolarDay] intValue] == 5){
+        ratebDict = solarForLunarDict;
+    } else {
+        BOOL found = NO;
+        
+        while (!found) {
+            tmpDay++;
+            ratebDict = [self retrivenHijriSolarDateForHijriLunarDay:tmpDay month:tmpMonth andYear:tmpYear];
+            
+            if (ratebDict == NULL) {
+                tmpMonth++;
+                tmpDay = 1;
+                
+                if (tmpMonth == 13) {
+                    tmpMonth = 1;
+                    tmpYear++;
+                }
+            }
+            
+            if ([[ratebDict objectForKey:kSolarDay] intValue] == 5) {
+                found = YES;
+            }
+        }
+    }
+
+    [dateComponents setDay:[[ratebDict objectForKey:kGregoranDay] intValue]];
+    [dateComponents setMonth:[[ratebDict objectForKey:kGregoranMonth] intValue]];
+    [dateComponents setYear:[[ratebDict objectForKey:kGregoranYear] intValue]];
     
     NSDate *ratebDate = [dateComponents date];
     return ratebDate;
@@ -31,13 +87,13 @@
 }
 
 - (NSInteger)calculateDaysLeftToNextRatebDate:(NSDate *)ratebDate {
-    NSDate * selected = ratebDate;
-    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    NSDateComponents *dateComponents = [gregorian components: NSCalendarUnitDay
-                                           fromDate: [NSDate date]
-                                             toDate: selected
-                                            options: 0];
-    return [dateComponents day];
+    NSDate *fromDate;
+    NSDate *toDate;
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    [calendar rangeOfUnit:NSCalendarUnitDay startDate:&fromDate interval:NULL forDate:[NSDate date]];
+    [calendar rangeOfUnit:NSCalendarUnitDay startDate:&toDate interval:NULL forDate:ratebDate];
+    NSDateComponents *difference = [calendar components:NSCalendarUnitDay fromDate:fromDate toDate:toDate options:0];
+    return [difference day];
 }
 
 - (NSString *)localizeGregorianMonth:(NSInteger)month {
@@ -214,4 +270,5 @@
     }
     
 }
+
 @end
