@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "FAE237A11DB4046F0089B25B"
                BuildableName = "Rateb.app"
                BlueprintName = "Rateb"
+               ReferencedContainer = "container:Rateb.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FAA8D7301DBC8A430088C4E3"
+               BuildableName = "Rateb Widget.appex"
+               BlueprintName = "Rateb Widget"
                ReferencedContainer = "container:Rateb.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

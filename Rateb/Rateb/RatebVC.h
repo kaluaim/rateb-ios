@@ -6,7 +6,7 @@
 
 
 // Current Dates
-@property (weak, nonatomic) IBOutlet UIView *viewCurrentDates;
+@property (weak, nonatomic) IBOutlet UIView  *viewCurrentDates;
 @property (weak, nonatomic) IBOutlet UILabel *labelCurrentDates;
 
 // Gregorian

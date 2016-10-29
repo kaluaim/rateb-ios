@@ -42,3 +42,12 @@
 
 "RATEB_TODAY" = "Today";
 "RATEB_TOMORROW" = "Tomorrow";
+
+// Info
+"INFO_SECTION_TITLE" = "About";
+"INFO_DEVELOPER_TITLE" = "Developed by";
+"INFO_DEVELOPER_DETAIL" = "Khalid Alnuaim (kaluaim)";
+"INFO_SOURCE_TITLE" = "Source";
+"INFO_SOURCE_DETAIL" = "@ummulqura";
+"INFO_PREPARED_BY_TITLE" = "Prepared by";
+"INFO_PREPARED_BY_DETAIL" = "@engineer_fouad";

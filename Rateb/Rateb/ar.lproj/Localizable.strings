@@ -42,3 +42,13 @@
 
 "RATEB_TODAY" = "اليوم";
 "RATEB_TOMORROW" = "غداً";
+
+
+// Info
+"INFO_SECTION_TITLE" = "عن التطبيق";
+"INFO_DEVELOPER_TITLE" = "تطوير";
+"INFO_DEVELOPER_DETAIL" = "خالد النعيم";
+"INFO_SOURCE_TITLE" = "المصدر";
+"INFO_SOURCE_DETAIL" = "@ummulqura";
+"INFO_PREPARED_BY_TITLE" = "إعداد";
+"INFO_PREPARED_BY_DETAIL" = "@engineer_fouad";

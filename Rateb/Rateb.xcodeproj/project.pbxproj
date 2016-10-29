@@ -7,8 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0EDC161DC0158100CFF219 /* RatebLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0EDC121DC0156A00CFF219 /* RatebLib.framework */; };
+		FA781A0D1DBD4B2B009AA259 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA829BCF1DB44A23005621C9 /* Localizable.strings */; };
 		FA829BC91DB44137005621C9 /* InfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA829BC81DB44137005621C9 /* InfoVC.m */; };
 		FA829BCD1DB44A23005621C9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA829BCF1DB44A23005621C9 /* Localizable.strings */; };
+		FA9119CA1DC4194E00CBC6DD /* RatebLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0EDC121DC0156A00CFF219 /* RatebLib.framework */; };
+		FA9119CB1DC4194E00CBC6DD /* RatebLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA0EDC121DC0156A00CFF219 /* RatebLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAA8D7341DBC8A440088C4E3 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8D7331DBC8A440088C4E3 /* NotificationCenter.framework */; };
+		FAA8D7381DBC8A440088C4E3 /* RatebWidgetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8D7371DBC8A440088C4E3 /* RatebWidgetVC.m */; };
+		FAA8D73B1DBC8A440088C4E3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8D7391DBC8A440088C4E3 /* MainInterface.storyboard */; };
+		FAA8D73F1DBC8A440088C4E3 /* Rateb Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAA8D7311DBC8A430088C4E3 /* Rateb Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FAA8D8421DBD3DB40088C4E3 /* UmmulquraDates.json in Resources */ = {isa = PBXBuildFile; fileRef = FAA8D8411DBD3DB40088C4E3 /* UmmulquraDates.json */; };
+		FAC8F9811DC3A69300105FFD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC8F9661DC3A69300105FFD /* Info.plist */; };
+		FAC8F9821DC3A69300105FFD /* MZBlurEffectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9681DC3A69300105FFD /* MZBlurEffectAdapter.m */; };
+		FAC8F9831DC3A69300105FFD /* MZFormSheetContentSizingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F96A1DC3A69300105FFD /* MZFormSheetContentSizingNavigationController.m */; };
+		FAC8F9841DC3A69300105FFD /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F96C1DC3A69300105FFD /* MZFormSheetContentSizingNavigationControllerAnimator.m */; };
+		FAC8F9851DC3A69300105FFD /* MZFormSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9701DC3A69300105FFD /* MZFormSheetPresentationController.m */; };
+		FAC8F9861DC3A69300105FFD /* MZFormSheetPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9721DC3A69300105FFD /* MZFormSheetPresentationViewController.m */; };
+		FAC8F9871DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9751DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimator.m */; };
+		FAC8F9881DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9771DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */; };
+		FAC8F9891DC3A69300105FFD /* MZFormSheetPresentationViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F97A1DC3A69300105FFD /* MZFormSheetPresentationViewControllerSegue.m */; };
+		FAC8F98A1DC3A69300105FFD /* MZMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F97C1DC3A69300105FFD /* MZMethodSwizzler.m */; };
+		FAC8F98B1DC3A69300105FFD /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F97E1DC3A69300105FFD /* MZTransition.m */; };
+		FAC8F98C1DC3A69300105FFD /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9801DC3A69300105FFD /* UIViewController+TargetViewController.m */; };
+		FAC8F9931DC3A6DC00105FFD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC8F98E1DC3A6DC00105FFD /* Info.plist */; };
+		FAC8F9941DC3A6DC00105FFD /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9901DC3A6DC00105FFD /* MZAppearance.m */; };
+		FAC8F9951DC3A6DC00105FFD /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9921DC3A6DC00105FFD /* NSInvocation+Copy.m */; };
+		FAC8F99A1DC3AABD00105FFD /* DetailDisclosureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F9981DC3AABD00105FFD /* DetailDisclosureCell.m */; };
+		FAC8F99B1DC3AABD00105FFD /* DetailDisclosureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC8F9991DC3AABD00105FFD /* DetailDisclosureCell.xib */; };
+		FAC8F99E1DC3BB8800105FFD /* InfoFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8F99D1DC3BB8800105FFD /* InfoFooterCell.m */; };
+		FAC8F9A01DC3BBA100105FFD /* InfoFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC8F99F1DC3BBA100105FFD /* InfoFooterCell.xib */; };
+		FAC8F9A41DC3BDD200105FFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC8F9A71DC3BDD200105FFD /* InfoPlist.strings */; };
+		FAC8F9A51DC3BDD200105FFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC8F9A71DC3BDD200105FFD /* InfoPlist.strings */; };
 		FAE237A71DB4046F0089B25B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237A61DB4046F0089B25B /* main.m */; };
 		FAE237AA1DB4046F0089B25B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237A91DB4046F0089B25B /* AppDelegate.m */; };
 		FAE237AD1DB4046F0089B25B /* RatebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237AC1DB4046F0089B25B /* RatebVC.m */; };
@@ -16,11 +46,37 @@
 		FAE237B21DB4046F0089B25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE237B11DB4046F0089B25B /* Assets.xcassets */; };
 		FAE237B51DB4046F0089B25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE237B31DB4046F0089B25B /* LaunchScreen.storyboard */; };
 		FAE237C01DB4046F0089B25B /* RatebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237BF1DB4046F0089B25B /* RatebTests.m */; };
-		FAE237CE1DB40FE70089B25B /* RatebUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237CD1DB40FE70089B25B /* RatebUtilities.m */; };
-		FAEED3811DB8AF19001A3554 /* UmmulquraDates.json in Resources */ = {isa = PBXBuildFile; fileRef = FAEED3801DB8AF19001A3554 /* UmmulquraDates.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FA0EDC111DC0156A00CFF219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0EDC0C1DC0156900CFF219 /* RatebLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAA8D8021DBCA5C60088C4E3;
+			remoteInfo = RatebLib;
+		};
+		FA0EDC131DC0156A00CFF219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0EDC0C1DC0156900CFF219 /* RatebLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAA8D80B1DBCA5C60088C4E3;
+			remoteInfo = RatebLibTests;
+		};
+		FA9119CC1DC4194E00CBC6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0EDC0C1DC0156900CFF219 /* RatebLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA8D8011DBCA5C60088C4E3;
+			remoteInfo = RatebLib;
+		};
+		FAA8D73D1DBC8A440088C4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE2379A1DB4046F0089B25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA8D7301DBC8A430088C4E3;
+			remoteInfo = "Rateb Widget";
+		};
 		FAE237BC1DB4046F0089B25B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAE2379A1DB4046F0089B25B /* Project object */;
@@ -30,11 +86,87 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FA9119CE1DC4194E00CBC6DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA9119CB1DC4194E00CBC6DD /* RatebLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8D7431DBC8A440088C4E3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FAA8D73F1DBC8A440088C4E3 /* Rateb Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FA0799281DBD4A4B00788351 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		FA0EDC0C1DC0156900CFF219 /* RatebLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RatebLib.xcodeproj; path = "../../rateb-lib/RatebLib/RatebLib.xcodeproj"; sourceTree = "<group>"; };
 		FA829BC71DB44137005621C9 /* InfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoVC.h; sourceTree = "<group>"; };
 		FA829BC81DB44137005621C9 /* InfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoVC.m; sourceTree = "<group>"; };
 		FA829BCE1DB44A23005621C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA829BD11DB44A3D005621C9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FAA8D7311DBC8A430088C4E3 /* Rateb Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rateb Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA8D7331DBC8A440088C4E3 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FAA8D7361DBC8A440088C4E3 /* RatebWidgetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatebWidgetVC.h; sourceTree = "<group>"; };
+		FAA8D7371DBC8A440088C4E3 /* RatebWidgetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatebWidgetVC.m; sourceTree = "<group>"; };
+		FAA8D73A1DBC8A440088C4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FAA8D73C1DBC8A440088C4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA8D7971DBC940B0088C4E3 /* Rateb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rateb.entitlements; sourceTree = "<group>"; };
+		FAA8D7981DBC94810088C4E3 /* Rateb Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rateb Widget.entitlements"; sourceTree = "<group>"; };
+		FAA8D8411DBD3DB40088C4E3 /* UmmulquraDates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UmmulquraDates.json; sourceTree = "<group>"; };
+		FAC8F9661DC3A69300105FFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC8F9671DC3A69300105FFD /* MZBlurEffectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBlurEffectAdapter.h; sourceTree = "<group>"; };
+		FAC8F9681DC3A69300105FFD /* MZBlurEffectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBlurEffectAdapter.m; sourceTree = "<group>"; };
+		FAC8F9691DC3A69300105FFD /* MZFormSheetContentSizingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationController.h; sourceTree = "<group>"; };
+		FAC8F96A1DC3A69300105FFD /* MZFormSheetContentSizingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetContentSizingNavigationController.m; sourceTree = "<group>"; };
+		FAC8F96B1DC3A69300105FFD /* MZFormSheetContentSizingNavigationControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationControllerAnimator.h; sourceTree = "<group>"; };
+		FAC8F96C1DC3A69300105FFD /* MZFormSheetContentSizingNavigationControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetContentSizingNavigationControllerAnimator.m; sourceTree = "<group>"; };
+		FAC8F96D1DC3A69300105FFD /* MZFormSheetPresentationContentSizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationContentSizing.h; sourceTree = "<group>"; };
+		FAC8F96E1DC3A69300105FFD /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetPresentationController Swift Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAC8F96F1DC3A69300105FFD /* MZFormSheetPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationController.h; sourceTree = "<group>"; };
+		FAC8F9701DC3A69300105FFD /* MZFormSheetPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationController.m; sourceTree = "<group>"; };
+		FAC8F9711DC3A69300105FFD /* MZFormSheetPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewController.h; sourceTree = "<group>"; };
+		FAC8F9721DC3A69300105FFD /* MZFormSheetPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewController.m; sourceTree = "<group>"; };
+		FAC8F9731DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		FAC8F9741DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerAnimator.h; sourceTree = "<group>"; };
+		FAC8F9751DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerAnimator.m; sourceTree = "<group>"; };
+		FAC8F9761DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerInteractiveAnimator.h; sourceTree = "<group>"; };
+		FAC8F9771DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerInteractiveAnimator.m; sourceTree = "<group>"; };
+		FAC8F9781DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerInteractiveTransitioning.h; sourceTree = "<group>"; };
+		FAC8F9791DC3A69300105FFD /* MZFormSheetPresentationViewControllerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerSegue.h; sourceTree = "<group>"; };
+		FAC8F97A1DC3A69300105FFD /* MZFormSheetPresentationViewControllerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerSegue.m; sourceTree = "<group>"; };
+		FAC8F97B1DC3A69300105FFD /* MZMethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMethodSwizzler.h; sourceTree = "<group>"; };
+		FAC8F97C1DC3A69300105FFD /* MZMethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMethodSwizzler.m; sourceTree = "<group>"; };
+		FAC8F97D1DC3A69300105FFD /* MZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransition.h; sourceTree = "<group>"; };
+		FAC8F97E1DC3A69300105FFD /* MZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransition.m; sourceTree = "<group>"; };
+		FAC8F97F1DC3A69300105FFD /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		FAC8F9801DC3A69300105FFD /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		FAC8F98E1DC3A6DC00105FFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC8F98F1DC3A6DC00105FFD /* MZAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZAppearance.h; sourceTree = "<group>"; };
+		FAC8F9901DC3A6DC00105FFD /* MZAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZAppearance.m; sourceTree = "<group>"; };
+		FAC8F9911DC3A6DC00105FFD /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		FAC8F9921DC3A6DC00105FFD /* NSInvocation+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		FAC8F9971DC3AABD00105FFD /* DetailDisclosureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailDisclosureCell.h; sourceTree = "<group>"; };
+		FAC8F9981DC3AABD00105FFD /* DetailDisclosureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailDisclosureCell.m; sourceTree = "<group>"; };
+		FAC8F9991DC3AABD00105FFD /* DetailDisclosureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailDisclosureCell.xib; sourceTree = "<group>"; };
+		FAC8F99C1DC3BB8800105FFD /* InfoFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoFooterCell.h; sourceTree = "<group>"; };
+		FAC8F99D1DC3BB8800105FFD /* InfoFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoFooterCell.m; sourceTree = "<group>"; };
+		FAC8F99F1DC3BBA100105FFD /* InfoFooterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoFooterCell.xib; sourceTree = "<group>"; };
+		FAC8F9A61DC3BDD200105FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAC8F9A81DC3BDD400105FFD /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAE237A21DB4046F0089B25B /* Rateb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rateb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE237A61DB4046F0089B25B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAE237A81DB4046F0089B25B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,17 +180,24 @@
 		FAE237BB1DB4046F0089B25B /* RatebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE237BF1DB4046F0089B25B /* RatebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatebTests.m; sourceTree = "<group>"; };
 		FAE237C11DB4046F0089B25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAE237CC1DB40FE70089B25B /* RatebUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatebUtilities.h; sourceTree = "<group>"; };
-		FAE237CD1DB40FE70089B25B /* RatebUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatebUtilities.m; sourceTree = "<group>"; };
-		FAEED3801DB8AF19001A3554 /* UmmulquraDates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UmmulquraDates.json; sourceTree = "<group>"; };
 		FAEED3831DB8F7F2001A3554 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Rateb.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FAA8D72E1DBC8A430088C4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0EDC161DC0158100CFF219 /* RatebLib.framework in Frameworks */,
+				FAA8D7341DBC8A440088C4E3 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE2379F1DB4046F0089B25B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9119CA1DC4194E00CBC6DD /* RatebLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,11 +211,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA0EDC0D1DC0156900CFF219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EDC121DC0156A00CFF219 /* RatebLib.framework */,
+				FA0EDC141DC0156A00CFF219 /* RatebLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA8D7321DBC8A440088C4E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8D7331DBC8A440088C4E3 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA8D7351DBC8A440088C4E3 /* Rateb Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8D7981DBC94810088C4E3 /* Rateb Widget.entitlements */,
+				FAA8D7361DBC8A440088C4E3 /* RatebWidgetVC.h */,
+				FAA8D7371DBC8A440088C4E3 /* RatebWidgetVC.m */,
+				FAA8D7391DBC8A440088C4E3 /* MainInterface.storyboard */,
+				FAA8D73C1DBC8A440088C4E3 /* Info.plist */,
+			);
+			path = "Rateb Widget";
+			sourceTree = "<group>";
+		};
+		FAC8F9381DC3A38200105FFD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8F98D1DC3A6DC00105FFD /* MZAppearance */,
+				FAC8F9651DC3A69300105FFD /* MZFormSheetPresentationController */,
+			);
+			name = Libraries;
+			path = Rateb;
+			sourceTree = "<group>";
+		};
+		FAC8F9651DC3A69300105FFD /* MZFormSheetPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8F9661DC3A69300105FFD /* Info.plist */,
+				FAC8F9671DC3A69300105FFD /* MZBlurEffectAdapter.h */,
+				FAC8F9681DC3A69300105FFD /* MZBlurEffectAdapter.m */,
+				FAC8F9691DC3A69300105FFD /* MZFormSheetContentSizingNavigationController.h */,
+				FAC8F96A1DC3A69300105FFD /* MZFormSheetContentSizingNavigationController.m */,
+				FAC8F96B1DC3A69300105FFD /* MZFormSheetContentSizingNavigationControllerAnimator.h */,
+				FAC8F96C1DC3A69300105FFD /* MZFormSheetContentSizingNavigationControllerAnimator.m */,
+				FAC8F96D1DC3A69300105FFD /* MZFormSheetPresentationContentSizing.h */,
+				FAC8F96E1DC3A69300105FFD /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */,
+				FAC8F96F1DC3A69300105FFD /* MZFormSheetPresentationController.h */,
+				FAC8F9701DC3A69300105FFD /* MZFormSheetPresentationController.m */,
+				FAC8F9711DC3A69300105FFD /* MZFormSheetPresentationViewController.h */,
+				FAC8F9721DC3A69300105FFD /* MZFormSheetPresentationViewController.m */,
+				FAC8F9731DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */,
+				FAC8F9741DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimator.h */,
+				FAC8F9751DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimator.m */,
+				FAC8F9761DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */,
+				FAC8F9771DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */,
+				FAC8F9781DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */,
+				FAC8F9791DC3A69300105FFD /* MZFormSheetPresentationViewControllerSegue.h */,
+				FAC8F97A1DC3A69300105FFD /* MZFormSheetPresentationViewControllerSegue.m */,
+				FAC8F97B1DC3A69300105FFD /* MZMethodSwizzler.h */,
+				FAC8F97C1DC3A69300105FFD /* MZMethodSwizzler.m */,
+				FAC8F97D1DC3A69300105FFD /* MZTransition.h */,
+				FAC8F97E1DC3A69300105FFD /* MZTransition.m */,
+				FAC8F97F1DC3A69300105FFD /* UIViewController+TargetViewController.h */,
+				FAC8F9801DC3A69300105FFD /* UIViewController+TargetViewController.m */,
+			);
+			path = MZFormSheetPresentationController;
+			sourceTree = "<group>";
+		};
+		FAC8F98D1DC3A6DC00105FFD /* MZAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8F98E1DC3A6DC00105FFD /* Info.plist */,
+				FAC8F98F1DC3A6DC00105FFD /* MZAppearance.h */,
+				FAC8F9901DC3A6DC00105FFD /* MZAppearance.m */,
+				FAC8F9911DC3A6DC00105FFD /* NSInvocation+Copy.h */,
+				FAC8F9921DC3A6DC00105FFD /* NSInvocation+Copy.m */,
+			);
+			path = MZAppearance;
+			sourceTree = "<group>";
+		};
+		FAC8F9961DC3AA8A00105FFD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8F9971DC3AABD00105FFD /* DetailDisclosureCell.h */,
+				FAC8F9981DC3AABD00105FFD /* DetailDisclosureCell.m */,
+				FAC8F9991DC3AABD00105FFD /* DetailDisclosureCell.xib */,
+				FAC8F99C1DC3BB8800105FFD /* InfoFooterCell.h */,
+				FAC8F99D1DC3BB8800105FFD /* InfoFooterCell.m */,
+				FAC8F99F1DC3BBA100105FFD /* InfoFooterCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		FAE237991DB4046F0089B25B = {
 			isa = PBXGroup;
 			children = (
+				FA0EDC0C1DC0156900CFF219 /* RatebLib.xcodeproj */,
 				FAE237A41DB4046F0089B25B /* Rateb */,
 				FAE237BE1DB4046F0089B25B /* RatebTests */,
+				FAA8D7351DBC8A440088C4E3 /* Rateb Widget */,
+				FAC8F9381DC3A38200105FFD /* Libraries */,
+				FAA8D7321DBC8A440088C4E3 /* Frameworks */,
 				FAE237A31DB4046F0089B25B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +327,7 @@
 			children = (
 				FAE237A21DB4046F0089B25B /* Rateb.app */,
 				FAE237BB1DB4046F0089B25B /* RatebTests.xctest */,
+				FAA8D7311DBC8A430088C4E3 /* Rateb Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,14 +335,14 @@
 		FAE237A41DB4046F0089B25B /* Rateb */ = {
 			isa = PBXGroup;
 			children = (
+				FAA8D7971DBC940B0088C4E3 /* Rateb.entitlements */,
 				FAE237A81DB4046F0089B25B /* AppDelegate.h */,
 				FAE237A91DB4046F0089B25B /* AppDelegate.m */,
-				FAE237CC1DB40FE70089B25B /* RatebUtilities.h */,
-				FAE237CD1DB40FE70089B25B /* RatebUtilities.m */,
 				FAE237CF1DB410170089B25B /* View */,
 				FAE237D01DB410330089B25B /* Controller */,
 				FAE237A51DB4046F0089B25B /* Supporting Files */,
 				FA829BCF1DB44A23005621C9 /* Localizable.strings */,
+				FAC8F9A71DC3BDD200105FFD /* InfoPlist.strings */,
 			);
 			path = Rateb;
 			sourceTree = "<group>";
@@ -111,7 +353,7 @@
 				FAE237B11DB4046F0089B25B /* Assets.xcassets */,
 				FAE237B61DB4046F0089B25B /* Info.plist */,
 				FAE237A61DB4046F0089B25B /* main.m */,
-				FAEED3801DB8AF19001A3554 /* UmmulquraDates.json */,
+				FAA8D8411DBD3DB40088C4E3 /* UmmulquraDates.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -128,6 +370,7 @@
 		FAE237CF1DB410170089B25B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FAC8F9961DC3AA8A00105FFD /* Cells */,
 				FAE237AE1DB4046F0089B25B /* Rateb.storyboard */,
 				FAE237B31DB4046F0089B25B /* LaunchScreen.storyboard */,
 			);
@@ -148,6 +391,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FAA8D7301DBC8A430088C4E3 /* Rateb Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA8D7421DBC8A440088C4E3 /* Build configuration list for PBXNativeTarget "Rateb Widget" */;
+			buildPhases = (
+				FAA8D72D1DBC8A430088C4E3 /* Sources */,
+				FAA8D72E1DBC8A430088C4E3 /* Frameworks */,
+				FAA8D72F1DBC8A430088C4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rateb Widget";
+			productName = "Rateb Widget";
+			productReference = FAA8D7311DBC8A430088C4E3 /* Rateb Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		FAE237A11DB4046F0089B25B /* Rateb */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE237C41DB4046F0089B25B /* Build configuration list for PBXNativeTarget "Rateb" */;
@@ -155,10 +415,14 @@
 				FAE2379E1DB4046F0089B25B /* Sources */,
 				FAE2379F1DB4046F0089B25B /* Frameworks */,
 				FAE237A01DB4046F0089B25B /* Resources */,
+				FAA8D7431DBC8A440088C4E3 /* Embed App Extensions */,
+				FA9119CE1DC4194E00CBC6DD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FAA8D73E1DBC8A440088C4E3 /* PBXTargetDependency */,
+				FA9119CD1DC4194E00CBC6DD /* PBXTargetDependency */,
 			);
 			name = Rateb;
 			productName = Rateb;
@@ -189,13 +453,34 @@
 		FAE2379A1DB4046F0089B25B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Khalid Alnuaim";
 				TargetAttributes = {
+					FAA8D7301DBC8A430088C4E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 328T3E4F4D;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
 					FAE237A11DB4046F0089B25B = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 328T3E4F4D;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
 					};
 					FAE237BA1DB4046F0089B25B = {
 						CreatedOnToolsVersion = 8.0;
@@ -217,24 +502,63 @@
 			mainGroup = FAE237991DB4046F0089B25B;
 			productRefGroup = FAE237A31DB4046F0089B25B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA0EDC0D1DC0156900CFF219 /* Products */;
+					ProjectRef = FA0EDC0C1DC0156900CFF219 /* RatebLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FAE237A11DB4046F0089B25B /* Rateb */,
 				FAE237BA1DB4046F0089B25B /* RatebTests */,
+				FAA8D7301DBC8A430088C4E3 /* Rateb Widget */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		FA0EDC121DC0156A00CFF219 /* RatebLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RatebLib.framework;
+			remoteRef = FA0EDC111DC0156A00CFF219 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA0EDC141DC0156A00CFF219 /* RatebLibTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RatebLibTests.xctest;
+			remoteRef = FA0EDC131DC0156A00CFF219 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
+		FAA8D72F1DBC8A430088C4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8D73B1DBC8A440088C4E3 /* MainInterface.storyboard in Resources */,
+				FAC8F9A51DC3BDD200105FFD /* InfoPlist.strings in Resources */,
+				FA781A0D1DBD4B2B009AA259 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE237A01DB4046F0089B25B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEED3811DB8AF19001A3554 /* UmmulquraDates.json in Resources */,
+				FAA8D8421DBD3DB40088C4E3 /* UmmulquraDates.json in Resources */,
+				FAC8F9A01DC3BBA100105FFD /* InfoFooterCell.xib in Resources */,
+				FAC8F99B1DC3AABD00105FFD /* DetailDisclosureCell.xib in Resources */,
 				FAE237B51DB4046F0089B25B /* LaunchScreen.storyboard in Resources */,
+				FAC8F9811DC3A69300105FFD /* Info.plist in Resources */,
 				FA829BCD1DB44A23005621C9 /* Localizable.strings in Resources */,
 				FAE237B21DB4046F0089B25B /* Assets.xcassets in Resources */,
 				FAE237B01DB4046F0089B25B /* Rateb.storyboard in Resources */,
+				FAC8F9931DC3A6DC00105FFD /* Info.plist in Resources */,
+				FAC8F9A41DC3BDD200105FFD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,15 +572,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FAA8D72D1DBC8A430088C4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8D7381DBC8A440088C4E3 /* RatebWidgetVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE2379E1DB4046F0089B25B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC8F9941DC3A6DC00105FFD /* MZAppearance.m in Sources */,
 				FAE237AD1DB4046F0089B25B /* RatebVC.m in Sources */,
-				FAE237CE1DB40FE70089B25B /* RatebUtilities.m in Sources */,
+				FAC8F98C1DC3A69300105FFD /* UIViewController+TargetViewController.m in Sources */,
+				FAC8F9861DC3A69300105FFD /* MZFormSheetPresentationViewController.m in Sources */,
 				FAE237AA1DB4046F0089B25B /* AppDelegate.m in Sources */,
+				FAC8F9851DC3A69300105FFD /* MZFormSheetPresentationController.m in Sources */,
+				FAC8F9831DC3A69300105FFD /* MZFormSheetContentSizingNavigationController.m in Sources */,
 				FA829BC91DB44137005621C9 /* InfoVC.m in Sources */,
+				FAC8F9841DC3A69300105FFD /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */,
+				FAC8F99E1DC3BB8800105FFD /* InfoFooterCell.m in Sources */,
 				FAE237A71DB4046F0089B25B /* main.m in Sources */,
+				FAC8F9871DC3A69300105FFD /* MZFormSheetPresentationViewControllerAnimator.m in Sources */,
+				FAC8F99A1DC3AABD00105FFD /* DetailDisclosureCell.m in Sources */,
+				FAC8F98A1DC3A69300105FFD /* MZMethodSwizzler.m in Sources */,
+				FAC8F9881DC3A69300105FFD /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */,
+				FAC8F9821DC3A69300105FFD /* MZBlurEffectAdapter.m in Sources */,
+				FAC8F9951DC3A6DC00105FFD /* NSInvocation+Copy.m in Sources */,
+				FAC8F9891DC3A69300105FFD /* MZFormSheetPresentationViewControllerSegue.m in Sources */,
+				FAC8F98B1DC3A69300105FFD /* MZTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +617,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FA9119CD1DC4194E00CBC6DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RatebLib;
+			targetProxy = FA9119CC1DC4194E00CBC6DD /* PBXContainerItemProxy */;
+		};
+		FAA8D73E1DBC8A440088C4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA8D7301DBC8A430088C4E3 /* Rateb Widget */;
+			targetProxy = FAA8D73D1DBC8A440088C4E3 /* PBXContainerItemProxy */;
+		};
 		FAE237BD1DB4046F0089B25B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FAE237A11DB4046F0089B25B /* Rateb */;
@@ -286,6 +642,24 @@
 				FA829BD11DB44A3D005621C9 /* ar */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FAA8D7391DBC8A440088C4E3 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA8D73A1DBC8A440088C4E3 /* Base */,
+				FA0799281DBD4A4B00788351 /* ar */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC8F9A71DC3BDD200105FFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC8F9A61DC3BDD200105FFD /* Base */,
+				FAC8F9A81DC3BDD400105FFD /* ar */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		FAE237AE1DB4046F0089B25B /* Rateb.storyboard */ = {
@@ -308,6 +682,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FAA8D7401DBC8A440088C4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 328T3E4F4D;
+				INFOPLIST_FILE = "Rateb Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaluaim.rateb.Rateb-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAA8D7411DBC8A440088C4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 328T3E4F4D;
+				INFOPLIST_FILE = "Rateb Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaluaim.rateb.Rateb-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FAE237C21DB4046F0089B25B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -327,6 +725,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -375,6 +774,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -453,6 +853,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FAA8D7421DBC8A440088C4E3 /* Build configuration list for PBXNativeTarget "Rateb Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA8D7401DBC8A440088C4E3 /* Debug */,
+				FAA8D7411DBC8A440088C4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FAE2379D1DB4046F0089B25B /* Build configuration list for PBXProject "Rateb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

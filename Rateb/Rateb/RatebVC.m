@@ -1,5 +1,6 @@
 #import "RatebVC.h"
-#import "RatebUtilities.h"
+#import <RatebLib/RatebUtilities.h>
+#import "MZFormSheetPresentationViewControllerSegue.h"
 
 @interface RatebVC ()
 @property (strong, nonatomic) RatebUtilities    *ratebUtilities;
@@ -15,6 +16,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _ratebUtilities     = [[RatebUtilities alloc] init];
+    NSString* ummulquraDatesPath = [[NSBundle mainBundle] pathForResource:@"UmmulquraDates" ofType:@"json"];
+    NSString *ummulquraDatesJSON = [[NSString alloc] initWithContentsOfFile:ummulquraDatesPath encoding:NSUTF8StringEncoding error:NULL];
+    NSDictionary *ummulquraDatesDictionary = [NSJSONSerialization JSONObjectWithData:[ummulquraDatesJSON dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
+    _ratebUtilities.ummulquraDates = ummulquraDatesDictionary;
     _calendarGregorian  = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     _calendarHijriLunar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierIslamicUmmAlQura];
     _calendarHijriSolar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierPersian];
@@ -26,7 +31,7 @@
     _viewCurrentDates.layer.masksToBounds = YES;
     
     // Hide current dates for iPhone 5s and less
-    if (self.view.bounds.size.height < 570) {
+    if (self.view.bounds.size.height < 500) {
         _viewCurrentDates.hidden = YES;
         _labelCurrentDates.hidden = YES;
     }
@@ -95,5 +100,16 @@
 }
 
 
+#pragma mark- Segues
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"info"]) {
+        MZFormSheetPresentationViewControllerSegue *infoSegue = (id)segue;
+        infoSegue.formSheetPresentationController.presentationController.shouldApplyBackgroundBlurEffect = NO;
+        infoSegue.formSheetPresentationController.contentViewControllerTransitionStyle = MZFormSheetPresentationTransitionStyleFade;
+        infoSegue.formSheetPresentationController.contentViewCornerRadius = 10.0f;
+        infoSegue.formSheetPresentationController.presentationController.contentViewSize = CGSizeMake(300, 350);
+        infoSegue.formSheetPresentationController.presentationController.shouldDismissOnBackgroundViewTap = YES;
+    }
+}
 
 @end
